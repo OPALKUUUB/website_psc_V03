@@ -1,0 +1,32 @@
+.Header {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-image: url("./psc2_filter.jpg");
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+}
+
+.Header-contact {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 2em 0 2em;
+}
+
+.contact-left {
+  background: #2f5d62;
+  padding: 0 10px;
+}
+
+.contact-right {
+  background: #2f5d62;
+  padding: 0 10px;
+}
+
+.Header-logo {
+  text-transform: uppercase;
+  color: orange;
+  font-size: 1.5em;
+  padding-left: 30px;
+}
