@@ -21,7 +21,7 @@ class Header extends Component {
             <hr className="Header-bar" />
             <div className="Header-navbar">
               <ul className="navbar-nav">
-                <li>
+                <li className="active">
                   <a href="/#">home</a>
                 </li>
                 <li>
@@ -45,8 +45,10 @@ class Header extends Component {
                   Join with us getting bargain deals on shipping container
                 </h3>
               </div>
-              <div className="content-button">
-                <a href="/#">contact us</a>
+              <div className="body-button">
+                <a href="/#" className="button">
+                  contact us
+                </a>
               </div>
             </div>
           </div>
