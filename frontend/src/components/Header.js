@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkerAlt, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 class Header extends Component {
   render() {
@@ -9,10 +11,20 @@ class Header extends Component {
           <div className="Header-content">
             <div className="Header-contact">
               <div className="contact-left">
-                <p>address content</p>
+                <div>
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                </div>
+                <div>
+                  <p>หมู่ที่ 1 ต.หนองขาม อ.ศรีราชา จ.ชลบุรี 20110</p>
+                </div>
               </div>
               <div className="contact-right">
-                <p>phone content</p>
+                <div>
+                  <FontAwesomeIcon icon={faPhoneAlt} />
+                </div>
+                <div>
+                  <p>084-356-5558</p>
+                </div>
               </div>
             </div>
             <div className="Header-logo">
@@ -35,9 +47,9 @@ class Header extends Component {
             <div className="Header-body">
               <div className="body-head">
                 <h1>
-                  we make shipping
+                  we are transporter
                   <br />
-                  big stuff easy
+                  whose make you satisfied
                 </h1>
               </div>
               <div className="body-tail">
