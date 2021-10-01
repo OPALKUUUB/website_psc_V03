@@ -49,13 +49,13 @@ class Header extends Component {
                 <h1>
                   we are transporter
                   <br />
-                  whose make you satisfied
+                  who make your satisfied
+                  {/* which make you satisfied */}
+                  {/* your satisfied is our goal */}
                 </h1>
               </div>
               <div className="body-tail">
-                <h3>
-                  Join with us getting bargain deals on shipping container
-                </h3>
+                <h3>Join us to get bargain deals on the shipping container</h3>
               </div>
               <div className="body-button">
                 <a href="/#" className="button">

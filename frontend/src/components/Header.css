@@ -13,8 +13,11 @@
 }
 
 .Header-frame {
-  background: rgba(0, 0, 0, 0.452);
+  /* background: rgba(0, 0, 0, 0.452); */
+  background: rgba(64, 32, 0, 0.5);
   height: 100%;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 
 .Header-contact {
@@ -23,7 +26,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0.5em 2em 0 2em;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.548);
+  text-shadow: 1.5px 1.5px rgba(64, 32, 0, 0.63);
   margin-bottom: 5px;
 }
 
@@ -53,13 +56,13 @@
   margin-left: 1.5em;
   text-transform: uppercase;
   font-size: 1.5em;
-  color: orange;
+  color: rgb(255, 153, 0);
   padding-left: 10px;
 }
 
 .Header-logo h1 {
   margin: 0;
-  text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.199);
+  text-shadow: 1.5px 1.5px rgba(64, 32, 0, 0.288);
 }
 
 hr.Header-bar {
@@ -76,6 +79,7 @@ hr.Header-bar {
   height: 80px;
 }
 .navbar-nav {
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -89,18 +93,18 @@ hr.Header-bar {
   font-size: 1.3em;
   color: white;
   text-decoration: none;
-  text-shadow: 1.1px 1.1px rgba(0, 0, 0, 0.548);
+  text-shadow: 1.5px 1.5px rgba(64, 32, 0, 0.356);
 }
 
 .navbar-nav li:hover {
-  border-top: 2px solid rgb(255, 145, 0);
+  border-top: 2px solid rgb(255, 153, 0);
 }
 .navbar-nav li a:active {
   opacity: 0.5;
 }
 
 .active {
-  border-top: 2px solid rgb(255, 145, 0);
+  border-top: 2px solid rgb(255, 153, 0);
 }
 
 .Header-body {
@@ -116,17 +120,18 @@ hr.Header-bar {
   font-weight: 500;
   line-height: 100px;
   margin-bottom: 0;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.548);
+  text-shadow: 2px 2px rgba(64, 32, 0, 0.747);
 }
 
 .body-tail {
   margin-top: 0;
+  letter-spacing: 4.6px;
 }
 
 .body-tail h3 {
   font-size: 1.3em;
   font-weight: 300;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.438);
+  text-shadow: 1.5px 1.5px rgba(64, 32, 0, 0.726);
 }
 
 .body-button {
@@ -140,6 +145,8 @@ hr.Header-bar {
   background-color: rgb(255, 153, 0);
   border-radius: 100px;
   padding: 10px 20px;
+
+  text-shadow: 1.5px 1.5px rgba(64, 32, 0, 0.253);
 }
 
 .body-button .button:hover {
