@@ -8,8 +8,9 @@ function App() {
     <>
       <div className="mustache"></div>
       <Header />
-      <TopicWhatWeDo />
+      <TopicWhatWeDo topic="what we do ?" />
       <WhatWeDo />
+      <TopicWhatWeDo topic="contact us" />
     </>
   );
 }

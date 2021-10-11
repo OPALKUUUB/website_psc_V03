@@ -1,0 +1,67 @@
+/* .Process {
+  color: white;
+  background-color: #f07202;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.Process-container {
+  display: flex;
+}
+
+.Process-topicBlock {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Process-topicText {
+  margin: 0;
+}
+.Process-block {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Process-subBlock {
+  width: 160px;
+  align-self: center;
+}
+
+.flip {
+  transform: rotate(180deg) scaleY(-1);
+} */
+.Process {
+  margin-bottom: 50px;
+}
+.Process .Container {
+  display: flex;
+  flex-flow: column wrap;
+  /* background-color: #f07202; */
+}
+.Container-Top {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.Container-Bottom {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.Block {
+  padding: 0;
+  width: 23vw;
+  background-color: white;
+  text-align: center;
+  align-self: center;
+  /* border: 1px solid white;  // 263.413 253.150 179.850*/
+}

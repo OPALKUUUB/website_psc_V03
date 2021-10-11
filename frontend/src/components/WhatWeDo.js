@@ -1,16 +1,12 @@
 import React, { Component } from "react";
+import Process from "./Process";
 import "./WhatWeDo.css";
-import Export from "./Export";
 
 class WhatWeDo extends Component {
   render() {
     return (
       <section className="Container">
-        <div style={{ padding: "20px" }}>
-          <div>
-            <Export />
-          </div>
-        </div>
+        <Process />
       </section>
     );
   }

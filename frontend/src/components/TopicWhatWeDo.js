@@ -25,7 +25,7 @@ class TopicWhatWeDo extends Component {
                 color: "#F2F2F2",
               }}
             >
-              what we do ?
+              {this.props.topic}
             </h1>
           </div>
           <div style={{ color: "#F2F2F2" }}>
