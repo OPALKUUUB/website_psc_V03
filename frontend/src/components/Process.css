@@ -1,3 +1,17 @@
+.Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.Block {
+  background-color: red;
+}
+
+.Content-image {
+  background-color: white;
+}
+/* ########################## version 1 ##############################*/
 /* .Process {
   color: white;
   background-color: #f07202;
@@ -37,13 +51,14 @@
 .flip {
   transform: rotate(180deg) scaleY(-1);
 } */
-.Process {
+
+/* ############################## version 2 ############################## */
+/* .Process {
   margin-bottom: 50px;
 }
 .Process .Container {
   display: flex;
   flex-flow: column wrap;
-  /* background-color: #f07202; */
 }
 .Container-Top {
   display: flex;
@@ -63,5 +78,4 @@
   background-color: white;
   text-align: center;
   align-self: center;
-  /* border: 1px solid white;  // 263.413 253.150 179.850*/
-}
+} */

@@ -10,6 +10,44 @@ class Process extends Component {
     return (
       <section className="Process">
         <div className="Container">
+          <div className="Block">
+            <div className="Content-image">
+              <ContainerDepot />
+            </div>
+            <div className="Content-text">
+              <h3>
+                Get an empty container
+                <br />
+                from the containers depot.
+              </h3>
+            </div>
+          </div>
+          <div className="Block">
+            <div className="Content-text">
+              <h3>
+                Take to factory for
+                <br /> packing product into containers.
+              </h3>
+            </div>
+            <div className="Content-image">
+              <LoadAtFactory />
+            </div>
+          </div>
+          <div className="Block">
+            <div className="Content-image">
+              <Port />
+            </div>
+            <div className="Content-text">
+              <h3>
+                Pick up or drop off
+                <br />
+                containers at the pier.
+              </h3>
+            </div>
+          </div>
+        </div>
+        {/* ######################## version 2 ######################### */}
+        {/* <div className="Container">
           <div className="Container-Top">
             <div className="Block">
               <ContainerDepot />
@@ -43,7 +81,8 @@ class Process extends Component {
               </h3>
             </div>
           </div>
-        </div>
+        </div> */}
+        {/* ############################## version 1 ######################### */}
         {/* <div>
           <div className="Process-topicBlock">
             <h1 className="Process-topicText">Export Process</h1>
