@@ -1,4 +1,4 @@
-.Container {
+/* .Container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -10,10 +10,11 @@
 
 .Content-image {
   background-color: white;
-}
+} */
 /* ########################## version 1 ##############################*/
-/* .Process {
-  color: white;
+.Process {
+  /* color: white; */
+  /* background-color: #f07202; */
   background-color: #f07202;
   font-size: 16px;
   display: flex;
@@ -23,9 +24,13 @@
 }
 .Process-container {
   display: flex;
+  background-color: white;
+  border-radius: 3%;
+  padding: 20px;
 }
 
 .Process-topicBlock {
+  color: white;
   font-size: 1.5em;
   text-align: center;
   padding-top: 50px;
@@ -50,7 +55,7 @@
 
 .flip {
   transform: rotate(180deg) scaleY(-1);
-} */
+}
 
 /* ############################## version 2 ############################## */
 /* .Process {

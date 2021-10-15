@@ -2,7 +2,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 
-class TopicWhatWeDo extends Component {
+class Topic extends Component {
   render() {
     return (
       <section>
@@ -38,4 +38,4 @@ class TopicWhatWeDo extends Component {
   }
 }
 
-export default TopicWhatWeDo;
+export default Topic;

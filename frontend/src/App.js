@@ -1,6 +1,7 @@
 import Header from "./components/Header";
-import TopicWhatWeDo from "./components/TopicWhatWeDo";
+import Topic from "./components/Topic";
 import WhatWeDo from "./components/WhatWeDo";
+import ContactUs from "./components/ContactUs";
 import "./App.css";
 
 function App() {
@@ -8,9 +9,10 @@ function App() {
     <>
       <div className="mustache"></div>
       <Header />
-      <TopicWhatWeDo topic="what we do ?" />
+      <Topic topic="what we do ?" />
       <WhatWeDo />
-      <TopicWhatWeDo topic="contact us" />
+      <Topic topic="contact us" />
+      <ContactUs />
     </>
   );
 }

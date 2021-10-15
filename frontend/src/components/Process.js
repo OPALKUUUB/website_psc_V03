@@ -9,7 +9,7 @@ class Process extends Component {
   render() {
     return (
       <section className="Process">
-        <div className="Container">
+        {/* <div className="Container">
           <div className="Block">
             <div className="Content-image">
               <ContainerDepot />
@@ -45,7 +45,7 @@ class Process extends Component {
               </h3>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ######################## version 2 ######################### */}
         {/* <div className="Container">
           <div className="Container-Top">
@@ -83,7 +83,7 @@ class Process extends Component {
           </div>
         </div> */}
         {/* ############################## version 1 ######################### */}
-        {/* <div>
+        <div>
           <div className="Process-topicBlock">
             <h1 className="Process-topicText">Export Process</h1>
           </div>
@@ -133,7 +133,7 @@ class Process extends Component {
               <h3>Container Depot</h3>
             </div>
           </div>
-        </div> */}
+        </div>
       </section>
     );
   }
