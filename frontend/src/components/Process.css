@@ -25,7 +25,7 @@
 .Process-container {
   display: flex;
   background-color: white;
-  border-radius: 3%;
+  border-radius: 25px;
   padding: 20px;
 }
 

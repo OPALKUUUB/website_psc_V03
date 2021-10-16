@@ -116,10 +116,49 @@ class ContactUs extends Component {
         </div>
         <div className="ContactUs-right">
           <form className="right-form">
-            <input />
-            <input />
-            <input />
-            <textarea />
+            <label for="fullName" className="form-label">
+              Name
+            </label>
+            <input
+              type="text"
+              className="form-input"
+              id="fullName"
+              name="fullName"
+              placeholder="Full Name"
+            />
+            <label for="email" className="form-label">
+              Email
+            </label>
+            <input
+              type="email"
+              className="form-input"
+              id="email"
+              name="email"
+              placeholder="Email"
+            />
+            <label for="phone" className="form-label">
+              Phone
+            </label>
+            <input
+              type="tel"
+              className="form-input"
+              id="phone"
+              name="phone"
+              placeholder="Phone"
+            />
+            <label for="suggestionUs" className="form-label">
+              Suggestion Us
+            </label>
+            <textarea
+              type="text"
+              className="form-textarea"
+              id="suggestionUs"
+              name="suggestionUs"
+              placeholder="Type Something..."
+            />
+            <button type="submit" className="form-button">
+              Submit
+            </button>
           </form>
         </div>
       </section>
